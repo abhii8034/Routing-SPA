@@ -1,0 +1,24 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.home-img {
+  width: 150px;
+}
+
+.home-heading {
+  font-family: 'Genos', sans-serif;
+  font-weight: bold;
+  line-height: 56px;
+  color: #69396b;
+}
+
+@media screen and (min-width: 576px) {
+  .home-heading {
+    font-size: 48px;
+  }
+}

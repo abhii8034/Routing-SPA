@@ -1,0 +1,24 @@
+.notfound-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.notfound-img {
+  width: 150px;
+}
+
+.notfound-heading {
+  font-family: 'Genos', sans-serif;
+  font-weight: bold;
+  color: #6d396b;
+  font-size: 24px;
+}
+
+@media (min-width: 576px) {
+  .notfound-heading {
+    font-size: 48px;
+  }
+}

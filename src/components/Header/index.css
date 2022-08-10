@@ -1,0 +1,50 @@
+* {
+  font-family: 'Genos', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+@media screen and (max-width: 575px) {
+  .header {
+    padding: 15px;
+  }
+}
+
+.logo-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+  margin-right: 9px;
+}
+
+.title {
+  color: #12022f;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.nav-items-list {
+  display: flex;
+  padding-left: 0px;
+}
+
+.link-item {
+  list-style-type: none;
+}
+
+.nav-link {
+  color: #12022f;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 16px;
+}

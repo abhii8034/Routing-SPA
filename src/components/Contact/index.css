@@ -1,0 +1,24 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.contact-img {
+  width: 150px;
+}
+
+.contact-heading {
+  font-family: 'Genos', sans-serif;
+  font-weight: bold;
+  color: #6d396b;
+  font-size: 24px;
+}
+
+@media (min-width: 576px) {
+  .contact-heading {
+    font-size: 48px;
+  }
+}
